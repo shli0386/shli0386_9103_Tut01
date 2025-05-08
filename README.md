@@ -1,4 +1,32 @@
 # shli0386_9103_Tut01
 My first repository for IDEA9103
 
-This is my first local change to the repo!
+# 🎨 IDEA9103 Quiz 8 – Design Research for Major Project  
+**Student Name**: Shixuan Li  
+**Unikey**: shli0386 
+**Commit Label**: `Quiz 8`
+
+---
+
+## Part 1: Imaging Technique Inspiration
+
+### 🖼️ Artwork: *Wheels of Fortune* by Pacita Abad (2000)
+
+![Wheels of Fortune](https://upload.wikimedia.org/wikipedia/commons/6/66/Pacita_Abad%2C_Wheels_of_Fortune%2C_2003_%28image%29.jpeg)
+
+![Mandala-style radial motif](https://cdn.dribbble.com/users/4025029/screenshots/16892893/media/5fbb174b1a65aa0c7e67d6eb0d404eb0.gif)
+
+In *Wheels of Fortune*, I’m inspired by the use of **vibrant concentric circles**, each with its own patterns and direction. I would like to simulate this through **independent circular objects that rotate individually** to reflect the chaotic, playful, and dynamic feeling of the artwork. This structure allows for modular animation with strong visual rhythm, aligning with the project’s emphasis on object-oriented coding and visual abstraction.
+
+---
+
+## Part 2: Coding Technique Exploration
+
+### 🧠 Technique: Independent object rotation with mouse hover interaction in p5.js
+
+![p5.js rotate example](https://p5js.org/assets/learn/rotate.png)
+
+**Example Link**:  
+[Rotating Shapes with Classes and Hover Interaction – OpenProcessing](https://editor.p5js.org/lliu29/sketches/NeGyR6QJ)
+
+This technique uses `rotate()` combined with `push()`/`pop()` and object-oriented structures to rotate multiple objects on the canvas. Each “wheel” or circle is programmed as a separate class instance. Using `dist()` to detect proximity to the mouse, we can trigger different behaviors such as **pausing** or **speeding up** when hovering over a circle. This creates playful interactivity while preserving modular and scalable code for the full animation project.
